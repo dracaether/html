@@ -1,0 +1,354 @@
+/* MAIN - design, layout, and some stuff like images probably */
+
+body
+{
+	background-image: url('images/wallpaper.jpg');
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+
+header /* on the previous assignment, this used to be <table> */
+{
+	width: 100%;
+	height: 300px;
+	background-image: url('images/header2.jpg');
+	background-repeat: no-repeat;
+	background-position: top center;
+	background-attachment: fixed;
+	background-size: cover;
+	float: left;
+}
+
+nav /* on the previous assignment, this used to be <table> */
+{
+	width: 100%;
+	height: 100px;
+	clear: both;
+	font-size: 1.5em;
+	text-align: center;
+	background-image: url('images/header.png');
+	background-repeat: no-repeat;
+	background-position: top center;
+	background-attachment: fixed;
+	background-size: cover;
+	margin: 0;
+}
+
+.margin
+{
+	border: 1px solid #ff9600;
+}
+
+.margin:hover
+{
+	border: 1px solid #d1f20a;
+}
+
+/* VIDEO - regarding to the position on the video */
+
+section /* on the previous assignment, this used to be a <div> */
+{
+	display: block;
+	width: auto;
+	height: auto;
+	font-size: 1em;
+	text-align: center;
+	background-image: url('images/header.png');
+	background-repeat: no-repeat;
+	background-position: top center;
+	background-attachment: fixed;
+	background-size: cover;
+    border: 1px solid #ff9600;
+}
+
+.index
+{
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.nav2
+{
+	width: 400px;
+	height: auto;
+	clear: both;
+	font-size: 1em;
+	background-image: url('images/wallpaper.jpg');
+	background-repeat: no-repeat;
+	background-position: top center;
+	background-attachment: fixed;
+	background-size: cover;
+	border: 1px solid #ff9600;
+	float: left;
+}
+
+.nav2:hover
+{
+	border: 1px solid #d1f20a;
+}
+
+/* THUMBNAILS - these are (obviously) thumbnails to each video/music/animated clips */
+
+.intro
+{
+	height: 200px;
+	width: 200px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	background: url('images/intro.png');
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.believer
+{
+	height: 200px;
+	width: 200px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	background: url('images/believer.png');
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.hard
+{
+	height: 200px;
+	width: 200px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	background: url('images/hard.png');
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.stoprewind
+{
+	height: 200px;
+	width: 200px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	background: url('images/stoprewind.png');
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.beautiful
+{
+	height: 200px;
+	width: 200px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	background: url('images/beautiful.png');
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.neffex
+{
+	height: 200px;
+	width: 200px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	background: url('images/neffex.png');
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.marie
+{
+	height: 200px;
+	width: 200px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	background: url('images/marie.png');
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.didrick
+{
+	height: 200px;
+	width: 200px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	background: url('images/didrick.png');
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.branded
+{
+	height: 200px;
+	width: 200px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	background: url('images/branded.png');
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.sitstill
+{
+	height: 200px;
+	width: 200px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	background: url('images/sitstill.png');
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.neffex2
+{
+	height: 200px;
+	width: 200px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	background: url('images/neffex2.png');
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+
+/* LINKS - mostly purely design (will get back to it eventually) */
+
+/* === navigation === */
+
+.selected
+{
+	font-family: "Splatfont 2", Project Paintball, Monospace;
+	color: #d1f20a;
+	text-decoration: none;
+}
+
+a.selected:hover
+{
+	color: #ff9600;
+	text-decoration: none;
+}
+
+a.modified:link
+{
+	font-family: "Splatfont 2", Project Paintball, Monospace;
+	color: white;
+	text-decoration: none;
+
+}
+
+a.modified:visited
+{
+	color: #ff9600;
+	text-decoration: none;
+}
+
+a.modified:hover
+{
+	color: #fe447d;
+	text-decoration: none;
+}
+
+/* === footer navigation === */
+
+.selected2
+{
+	font-family: "Splatfont 2", Project Paintball, Monospace;
+	color: #d1f20a;
+	text-decoration: none;
+}
+
+a.selected2:hover
+{
+	color: #ff9600;
+	text-decoration: none;
+}
+
+.modified2
+{
+	font-family: "Splatfont 2", Project Paintball, Monospace;
+	color: white;
+	text-decoration: none;
+}
+
+a.modified2:visited
+{
+	color: #ff9600;
+	text-decoration: none;
+}
+
+a.modified2:hover
+{
+	color: #fe447d;
+	text-decoration: none;
+}
+
+/* FONTS - aka I don't see anyone else use custom fonts?? */
+/* Font is 'Splatfont 2' by PaperYoshi. 'Project Paintball' by JapanYoshi */
+
+.font /* 'Monospace' is used as a final backup in case both 'Splatfont 2' and 'Project Paintball' aren't installed/can't install/refuse to install/missing. */
+{
+	font-family: "Splatfont 2", Project Paintball, Monospace; 
+	color: white;
+	font-size: 3em;
+	text-align: center;
+}
+
+.font2
+	{
+		font-family: "Splatfont 2", Project Paintball, Monospace;
+		text-align: center;
+		color: #d1f20a;
+		font-size: 0.9em;
+		background-image: url('images/header.png');
+		background-repeat: no-repeat;
+		background-position: center center;
+		background-attachment: fixed;
+		background-size: cover;
+	}
+
+.fontdesc
+{
+	font-family: "Splatfont 2", Project Paintball, Monospace;
+	color: white;
+	font-size: 1.2em
+}
+
+/* CENTER IMAGE - woomy, nom */
+
+.center
+
+	/* Logo is a drawing of mine. */
+
+{
+	height: 300px;
+	width: 350px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	background: url('images/persona.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	opacity: 1;
+
+}
+
+.center:hover
+
+{
+	opacity: 0.5;
+}
