@@ -1,5 +1,4 @@
 # html
-[![MIT licensed](https://img.shields.io/badge/license-MIT-blue.svg)](./LICENSE.md)
 
 #### this is a repository of all codes written in HTML.
 
@@ -10,16 +9,6 @@ beginners on where to start if they start designing.
 
 and yes, I play Splatoon.
 
-
-----
-## NOTE:
-This repo is under MIT License (see LICENSE.md).
-
-Also, these codes are written in **HTML**.
-
-----
-### Notice:
-This repository is made to help aspiring programmers and guide them to make their programs work. I am no professional programmer nor instructor, I am just a person who likes to help anyone I can.
 
 ----
 ### How to download?
