@@ -1,0 +1,13 @@
+HELLO
+
+
+If you're about to view this website/webpage/whatever, please install at least one of the following fonts (it's in the fonts folder):
+
+'Splatfont 2'
+'Project Paintball'
+
+Not installing them is fine as well, it'll just default to Monospace - one of of my favorite fonts (although sure as heck looks okay if paired to the theme I seemed to keep using).
+
+Both aforementioned fonts above belong to their respective owners.
+
+-dracaether

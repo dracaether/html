@@ -1,0 +1,154 @@
+/* MAIN - design, layout, and some stuff like images probably */
+
+body
+{
+	background-image: url('images/wallpaper.jpg');
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+
+header /* on the previous assignment, this used to be <table> */
+{
+	width: 100%;
+	height: 300px;
+	background-image: url('images/header2.jpg');
+	background-repeat: no-repeat;
+	background-position: top center;
+	background-attachment: fixed;
+	background-size: cover;
+	margin: 0;
+	float: left;
+}
+
+nav /* on the previous assignment, this used to be <table> */
+{
+	width: 100%;
+	height: 100px;
+	clear: both;
+	font-size: 1.5em;
+	text-align: center;
+	background-image: url('images/header.png');
+	background-repeat: no-repeat;
+	background-position: top center;
+	background-attachment: fixed;
+	background-size: cover;
+	margin: 0;
+}
+
+.margin
+{
+	border: 1px solid #ff9600;
+}
+
+.margin:hover
+{
+	border: 1px solid #d1f20a;
+}
+
+/* SECTIONS - the one with the boxes; articles maybe? */
+
+section /* on the previous assignment, this used to be a <div> */
+{
+	display: block;
+	width: 50%;
+	height: auto;
+	
+	font-size: 1.5em;
+	text-align: center;
+	background-image: url('images/header.png');
+	background-repeat: no-repeat;
+	background-position: top center;
+	background-attachment: fixed;
+	background-size: cover;
+	margin: 0;
+	padding: 0 6px;
+    float: left;
+    width: 24.99999%;
+    border: 1px solid #ff9600;
+}
+
+* 
+{
+    box-sizing: border-box;
+}
+
+section:hover 
+	{
+    	border: 1px solid #d1f20a;
+	}
+
+.responsive 
+{
+    padding: 0 6px;
+    float: left;
+    width: 24.99999%;
+}
+
+/* LINKS - mostly purely design (will get back to it eventually) */
+
+a.modified:link
+{
+	font-family: "Splatfont 2", Project Paintball, Monospace;
+	color: white;
+	text-decoration: none;
+
+}
+
+a.modified:visited
+{
+	color: #ff9600;
+	text-decoration: none;
+}
+
+a.modified:hover
+{
+	background-color: #fe447d;
+	color: #3bc335;
+	text-decoration: none;
+}
+
+/* FONTS - aka I don't see anyone else use custom fonts?? */
+/* Font is 'Splatfont 2' by PaperYoshi. 'Project Paintball' by JapanYoshi */
+
+.font /* 'Monospace' is used as a final backup in case both 'Splatfont 2' and 'Project Paintball' aren't installed/can't install/refuse to install/missing. */
+{
+	font-family: "Splatfont 2", Project Paintball, Monospace; 
+	color: white;
+	font-size: 3em;
+	text-align: center;
+}
+
+.fontdesc
+{
+	font-family: "Splatfont 2", Project Paintball, Monospace;
+	color: white;
+	font-size: 1.2em
+}
+
+/* CENTER IMAGE - woomy, nom */
+
+.center
+
+	/* Logo is the SquidForce logo found in-game. */
+
+{
+	height: 300px;
+	width: 350px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	background: url('images/squidforce.png');
+	background-size: cover;
+	background-repeat: no-repeat;
+	opacity: 1;
+
+}
+
+.center:hover
+
+{
+	opacity: 0.5;
+}
