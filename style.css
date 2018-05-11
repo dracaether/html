@@ -1,0 +1,353 @@
+	body
+	{
+		background-image: url('images/wallpaper.jpg');
+		background-repeat: no-repeat;
+		background-position: center center;
+		background-attachment: fixed;
+		background-size: cover;
+	}
+
+	p
+	{
+		font-family: Project Paintball, Monospace;
+		color: white;
+		text-align: center;
+	}
+
+	.social
+	{
+
+		font-family: Project Paintball, Monospace;
+		color: white;
+		text-align: center;
+	}
+
+	.social2
+	{
+
+		font-family: Project Paintball, Monospace;
+		color: white;
+		text-align: center;
+	}
+
+	table
+	{
+		border: 2px solid #3bc335;
+		border-collapse: collapse;
+		width: 100%;
+		height: 100%;
+		font-family: Project Paintball, Monospace;
+
+	}
+
+	td
+	{
+		border: 2px solid #3bc335;
+
+	}
+
+	.links
+	{
+		background-image: url('images/header.png');
+		background-repeat: no-repeat;
+		background-position: center center;
+		background-attachment: fixed;
+		background-size: cover;
+	}
+
+	td.nav:hover
+	{
+		background-color: #fe447d;
+		color: #3bc335;
+	}
+
+	a.modified:link
+	{
+		font-family: Project Paintball, Monospace;
+		color: white;
+
+	}
+
+	a.modified:visited
+	{
+		color: #ff9600;
+	}
+
+	a.modified:hover
+	{
+		background-color: #fe447d;
+		color: #3bc335;
+	}
+
+	.nav
+	{
+		width: 25%;
+		height: 100px;
+		font-size: 1.5em;
+		text-align: center;
+		
+	}
+
+	.header
+	{
+		width: 100%;
+		height: 145px;
+		background-image: url('images/header2.jpg');
+		background-repeat: no-repeat;
+		background-position: top center;
+		background-attachment: fixed;
+		background-size: cover;
+		margin: 0;
+	}
+
+	.panel
+	{
+		height: 450px;
+		text-align: center;
+	}
+
+	.font
+	{
+		font-family: Project Paintball, Monospace;
+		color: #ff9600;
+	}
+
+	.font2
+	{
+		font-family: Project Paintball, Monospace;
+		color: #d1f20a;
+		font-size: 0.5em;
+		background-image: url('images/header.png');
+		background-repeat: no-repeat;
+		background-position: center center;
+		background-attachment: fixed;
+		background-size: cover;
+	}
+
+	.center
+
+	/* Logo is the SquidForce logo found in-game. */
+
+	{
+		height: 300px;
+		width: 350px;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		background: url('images/squidforce.png');
+		background-size: cover;
+		background-repeat: no-repeat;
+		opacity: 0.5;
+	
+	}
+
+	.center:hover
+
+	{
+		opacity: 1;
+	}
+
+	.mini
+	{
+		border: 2px solid #3bc335;
+		border-collapse: collapse;
+		width: auto;
+		height: auto;
+		background-image: url('images/header.png');
+		background-repeat: no-repeat;
+		background-position: center center;
+		background-attachment: fixed;
+		background-size: cover;
+	}
+
+	.like
+	{
+		border: 2px solid #3bc335;
+		border-collapse: collapse;
+		width: auto;
+		height: auto;
+		background-image: url('images/header.png');
+		background-repeat: no-repeat;
+		background-position: center center;
+		background-attachment: fixed;
+		background-size: cover;
+		color: #0afe15;
+		font-size: 2em;
+	}
+
+	.dislike
+	{
+		border: 2px solid #3bc335;
+		border-collapse: collapse;
+		width: auto;
+		height: auto;
+		background-image: url('images/header.png');
+		background-repeat: no-repeat;
+		background-position: center center;
+		background-attachment: fixed;
+		background-size: cover;
+		color: #f84c00;
+		font-size: 2em;
+	}
+
+	.selected
+	{
+		background-color: #d1f20a;
+		width: 25%;
+		height: 100px;
+		font-size: 1.5em;
+		text-align: center;
+	}
+
+	.squidicond
+	{
+		height: 100px;
+		width: 100px;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		background: url('images/icons/discord.png');
+		background-size: cover;
+		background-repeat: no-repeat;
+		opacity: 0.5;
+	}
+
+	.squidicond:hover
+	{
+		opacity: 1;
+	}
+
+	.squidiconf
+	{
+		height: 100px;
+		width: 100px;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		background: url('images/icons/facebook.png');
+		background-size: cover;
+		background-repeat: no-repeat;
+		opacity: 0.5;
+	}
+
+	.squidiconf:hover
+	{
+		opacity: 1;
+	}
+
+	.squidicong
+	{
+		height: 100px;
+		width: 100px;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		background: url('images/icons/github.png');
+		background-size: cover;
+		background-repeat: no-repeat;
+		opacity: 0.5;
+	}
+
+	.squidicong:hover
+	{
+		opacity: 1;
+	}
+
+	.squidiconr
+	{
+		height: 100px;
+		width: 100px;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		background: url('images/icons/reddit.png');
+		background-size: cover;
+		background-repeat: no-repeat;
+		opacity: 0.5;
+	}
+
+	.squidiconr:hover
+	{
+		opacity: 1;
+	}
+
+	.squidicons
+	{
+		height: 100px;
+		width: 100px;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		background: url('images/icons/steam.png');
+		background-size: cover;
+		background-repeat: no-repeat;
+		opacity: 0.5;
+	}
+
+	.squidicons:hover
+	{
+		opacity: 1;
+	}
+
+	.squidiconsw
+	{
+		height: 100px;
+		width: 100px;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		background: url('images/icons/switch.png');
+		background-size: cover;
+		background-repeat: no-repeat;
+		opacity: 0.5;
+	}
+
+	.squidiconsw:hover
+	{
+		opacity: 1;
+	}
+
+	/* GALLERY */
+
+	div.gallery 
+	{
+    	border: 1px solid #ff9600;
+	}
+
+	div.gallery:hover 
+	{
+    	border: 1px solid #d1f20a;
+	}
+
+	div.gallery img 
+	{
+    	width: 100%;
+    	height: auto;
+	}
+
+	div.desc 
+	{
+		font-family: Project Paintball, Monospace;
+    	padding: 15px;
+    	text-align: center;
+    	color: white;
+    	background-image: url('images/header.png');
+		background-repeat: no-repeat;
+		background-position: center center;
+		background-attachment: fixed;
+		background-size: cover;
+	}
+
+	* 
+	{
+    	box-sizing: border-box;
+	}
+
+	.responsive 
+	{
+    	padding: 0 6px;
+    	float: left;
+    	width: 24.99999%;
+	}
+
+
